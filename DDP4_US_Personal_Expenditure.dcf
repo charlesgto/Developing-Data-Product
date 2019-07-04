@@ -1,0 +1,12 @@
+name: DDP4_US_Personal_Expenditure
+title: DDP4_US_Personal_Expenditure
+username:
+account: charlesoke
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1012142
+bundleId: 2200401
+url: https://charlesoke.shinyapps.io/DDP4_US_Personal_Expenditure/
+when: 1562259198.71552
+asMultiple: FALSE
+asStatic: FALSE

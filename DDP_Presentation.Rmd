@@ -1,0 +1,46 @@
+---
+title: "Developing Data Product Project"
+author: "Charles"
+date: "July 4, 2019"
+output: ioslides_presentation
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Shiny Presentation
+
+This R Markdown presentation is made interactive using Shiny. The US Personal Expenditure Data underscore different categories of items where data was collected from the period of 1940 till 1960.
+
+The personal Expenditure where data was collected is stated below
+ - Food and Tobacco
+ - Household Operation
+ - Medical and Health
+ - Personal Care
+ - Private Education
+ 
+The data was generated from the datasets.
+ 
+
+## Data Summary
+
+```{r, echo= FALSE}
+summary(USPersonalExpenditure)
+
+```
+
+## The Personal Expenditure plot
+
+- To View the data for each year of the US Expenditure, From the Expenditure Year  there exist a drop down list where to select the year to view the Boxplot.
+
+- The Boxplot will be displayed with respect to the year selected.
+
+
+## Reference
+
+- The Application link: https://charlesoke.shinyapps.io/DDP4_US_Personal_Expenditure/
+
+The Source Code of the Assignment: https://github.com/charlesgto/Developing-Data-Product
+
